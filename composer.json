@@ -1,0 +1,30 @@
+{
+    "name": "assemble/php-trint",
+    "description": "Simplified PHP library to interact with Trint API",
+    "keywords": ["php", "trint"],
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Alex Blake",
+            "email": "alex@assemble.co.za"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Assemble\\PHPTrint\\": "src/"
+        }
+    },
+    "extra": {
+       "laravel": {
+            "providers": [
+                "Assemble\\PHPTrint\\TrintServiceProvider"
+            ],
+            "aliases": {
+                "Trint": "Assemble\\PHPTrint\\Facades\\Trint"
+            }
+        }
+    }
+}
