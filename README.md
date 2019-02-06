@@ -1,5 +1,3 @@
-
-
 ## Introduction
 
 PHPTrint is a PHP library that interacts with the [Trint](https://app.trint.com) API to push audio/video files for transcription and list transcribed file contents.
