@@ -45,7 +45,7 @@ class Client {
 
         // bootstrap the internals
         $this->httpClient = new \GuzzleHttp\Client();
-        $this->requestMap = require_once('request_map.php');
+        $this->requestMap = require('request_map.php');
     }
 
     /**
